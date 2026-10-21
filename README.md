@@ -53,7 +53,7 @@ Ask Codex to open the Explainer Studio style selector, or run this from the repo
 python plugins/explainer-studio/skills/create-explainer/scripts/launch_selector.py
 ```
 
-The launcher discovers an existing compatible loopback-only server before starting one and prints its URL. It checks ports 8869–8968 and local listening ports reported by `netstat`; use `--port 8899` to prefer a known server. Local health checks bypass proxy settings and reject redirects. Only when no existing selector is found does it start a server, normally at `http://127.0.0.1:8869/style-selector.html`, or another free port. It opens your browser; add `--no-browser` when Codex will show the printed link. Reuse preserves that server's credential store and browser-origin settings; `--config-dir` applies only when starting a new server. No public hosting is required.
+The selector always uses `http://127.0.0.1:7719/style-selector.html`. The launcher checks that port first and reuses a healthy compatible selector; otherwise it starts one on 7719 only. If another service occupies the port, it reports the conflict without stopping it or choosing a different port. Local health checks bypass proxies and reject redirects. Add `--no-browser` when Codex will show the printed link. `--config-dir` applies only to a new server. Older-port browser choices may need to be selected again; reuse the same protected credential directory to retain service settings. No public hosting is required.
 
 - Click anywhere on a card to select its style.
 - Small previews autoplay silently and loop. **Play narrated preview** selects the style and opens a large player with sound and a visible Close button.

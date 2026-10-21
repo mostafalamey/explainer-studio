@@ -4,7 +4,7 @@ from pathlib import Path
 import re,argparse,json,secrets,threading
 from urllib.parse import urlsplit
 from credentials import Vault,StoreError
-parser=argparse.ArgumentParser();parser.add_argument('root',type=Path);parser.add_argument('--port',type=int,default=8869);parser.add_argument('--config-dir',type=Path);args=parser.parse_args();ROOT=args.root.resolve();VAULT=Vault(args.config_dir);TOKEN=secrets.token_urlsafe(32);LOCK=threading.RLock()
+parser=argparse.ArgumentParser();parser.add_argument('root',type=Path);parser.add_argument('--port',type=int,default=7719);parser.add_argument('--config-dir',type=Path);args=parser.parse_args();ROOT=args.root.resolve();VAULT=Vault(args.config_dir);TOKEN=secrets.token_urlsafe(32);LOCK=threading.RLock()
 if VAULT.folder.resolve().is_relative_to(ROOT):raise SystemExit('Keep the credential directory outside the served assets.')
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self,*a,**kw):super().__init__(*a,directory=str(ROOT),**kw)

@@ -24,10 +24,10 @@ If the skill is not visible after installation, start a new Codex chat. Ask Code
 python plugins/explainer-studio/skills/create-explainer/scripts/launch_selector.py
 ```
 
-Add `--no-browser` to print the URL for an agent to open. The process stays local and can be reused. If the first port is occupied, the launcher tries another port. To run a foreground server you can stop with Ctrl+C:
+Add `--no-browser` to print the URL for an agent to open. The process stays local and can be reused. The fixed URL is http://127.0.0.1:7719/style-selector.html. A healthy compatible selector on 7719 is reused. If another service owns 7719, resolve the conflict and retry; the launcher never switches ports. To run a foreground server you can stop with Ctrl+C:
 
 ```sh
-python plugins/explainer-studio/skills/create-explainer/scripts/serve.py plugins/explainer-studio/skills/create-explainer/assets --port 8869
+python plugins/explainer-studio/skills/create-explainer/scripts/serve.py plugins/explainer-studio/skills/create-explainer/assets --port 7719
 ```
 
 API-key management requires this bundled server; opening the HTML as a `file://` page cannot save keys. Clipboard choices contain a readable request and a JSON brief, never credentials. Paste the result into your chat and add the topic you want to explain.

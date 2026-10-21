@@ -6,7 +6,7 @@ The plugin and selector travel together in the Git repository or release package
 python SKILL/scripts/launch_selector.py --no-browser
 ```
 
-Open the printed local URL in Codex. Omit `--no-browser` for a normal browser. The launcher reuses a matching running version or starts a hidden loopback server on an available port, beginning at 8869. The computer does the rendering. No public website or cloud render service is needed. Keep editable video projects outside the plugin.
+Open the printed local URL in Codex. Omit `--no-browser` for a normal browser. The launcher checks fixed port 7719, reuses a matching running version, or starts a hidden loopback server on that same port. It reports occupied-port conflicts instead of choosing another port. The computer does the rendering. No public website or cloud render service is needed. Keep editable video projects outside the plugin.
 
 ## Any service name
 

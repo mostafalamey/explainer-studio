@@ -1,0 +1,6 @@
+interface:
+  display_name: "Explainer Studio"
+  short_description: "Narrated explainers with selectable visual styles"
+  default_prompt: "Use $create-explainer to storyboard and produce a narrated video, showing me the visual style selector first."
+policy:
+  allow_implicit_invocation: true

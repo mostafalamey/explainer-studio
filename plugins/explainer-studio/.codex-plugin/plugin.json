@@ -1,0 +1,18 @@
+{
+  "name": "explainer-studio",
+  "version": "0.22.2",
+  "description": "Create editable Canvas explainers with eighteen styles, saved video settings, landscape/portrait/square composition, optional narration, music and sound effects.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Explainer Studio",
+    "shortDescription": "Storyboard, narrate and animate in your chosen style",
+    "category": "Creativity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create a narrated explainer and show me the style selector first."
+    ]
+  }
+}

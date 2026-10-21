@@ -1,0 +1,218 @@
+{
+  "tech-glow": {
+    "name": "Tech Glow",
+    "runtime": "tech-glow/runtime.js",
+    "fonts": [
+      "700 60px \"Space Grotesk\"",
+      "600 30px \"Inter\"",
+      "800 64px \"Inter\""
+    ]
+  },
+  "isometric-pastel": {
+    "name": "Isometric Pastel",
+    "runtime": "isometric-pastel/runtime.js",
+    "fonts": [
+      "800 54px \"Inter\"",
+      "600 30px \"Inter\"",
+      "400 28px \"Inter\""
+    ]
+  },
+  "cut-paper-diorama": {
+    "name": "Cut-Paper Diorama",
+    "runtime": "cut-paper-diorama/runtime.js",
+    "css": "cut-paper-diorama/fonts.css",
+    "fonts": [
+      "400 48px \"Archivo Black\"",
+      "400 30px \"Archivo Black\"",
+      "400 70px \"Archivo Black\""
+    ]
+  },
+  "voxel-diorama": {
+    "name": "Voxel Diorama",
+    "runtime": "voxel-diorama/runtime.js",
+    "css": "voxel-diorama/fonts.css",
+    "fonts": [
+      "600 48px Fredoka",
+      "600 28px Fredoka",
+      "400 8px Silkscreen",
+      "400 28px Silkscreen",
+      "400 64px Silkscreen"
+    ]
+  },
+  "punk-zine-collage": {
+    "name": "Punk Zine Collage",
+    "runtime": "punk-zine-collage/runtime.js",
+    "css": "punk-zine-collage/fonts.css",
+    "fonts": [
+      "400 48px \"Abril Fatface\"",
+      "400 48px \"Anton\"",
+      "400 48px \"Archivo Black\"",
+      "400 48px \"Bebas Neue\"",
+      "400 48px \"Black Ops One\"",
+      "400 48px \"Courier Prime\"",
+      "400 48px \"DM Serif Display\"",
+      "400 48px \"Fraunces\"",
+      "400 48px \"Inter\"",
+      "400 48px \"Limelight\"",
+      "400 48px \"Oswald\"",
+      "400 48px \"Permanent Marker\"",
+      "400 48px \"Playfair Display\"",
+      "400 48px \"Rubik Mono One\"",
+      "400 48px \"Shrikhand\"",
+      "400 48px \"Special Elite\"",
+      "400 48px \"UnifrakturMaguntia\"",
+      "800 48px \"Playfair Display\"",
+      "italic 400 48px \"Playfair Display\"",
+      "700 48px Oswald",
+      "900 48px Fraunces",
+      "800 48px Inter"
+    ]
+  },
+  "glassmorphism-ui": {
+    "name": "Glassmorphism UI",
+    "runtime": "glassmorphism-ui/runtime.js",
+    "fonts": [
+      "400 28px Inter",
+      "600 28px Inter",
+      "800 52px Inter",
+      "800 88px Inter"
+    ]
+  },
+  "tarot-card": {
+    "name": "Tarot Card",
+    "runtime": "tarot-card/runtime.js",
+    "css": "tarot-card/fonts.css",
+    "fonts": [
+      "400 28px \"Cormorant Garamond\"",
+      "600 28px \"Cormorant Garamond\"",
+      "600 52px \"Cormorant Garamond\"",
+      "600 76px \"Cormorant Garamond\"",
+      "italic 400 28px \"Cormorant Garamond\""
+    ]
+  },
+  "gouache-travel-poster": {
+    "name": "Gouache Travel Poster",
+    "runtime": "gouache-travel-poster/runtime.js",
+    "css": "gouache-travel-poster/fonts.css",
+    "fonts": [
+      "400 28px \"Oswald\"",
+      "700 28px \"Oswald\"",
+      "400 40px \"Bebas Neue\"",
+      "400 86px \"Bebas Neue\"",
+      "400 96px \"Bebas Neue\""
+    ]
+  },
+  "isotype-pictograms": {
+    "name": "ISOTYPE Pictograms",
+    "runtime": "isotype-pictograms/runtime.js",
+    "fonts": [
+      "400 28px \"Space Grotesk\"",
+      "700 28px \"Space Grotesk\"",
+      "700 54px \"Space Grotesk\"",
+      "700 64px \"Space Grotesk\""
+    ]
+  },
+  "soft-3d-clay": {
+    "name": "Soft 3D Clay",
+    "runtime": "soft-3d-clay/runtime.js",
+    "css": "soft-3d-clay/fonts.css",
+    "fonts": [
+      "400 28px \"Fredoka\"",
+      "600 28px \"Fredoka\"",
+      "700 56px \"Fredoka\"",
+      "700 76px \"Fredoka\""
+    ]
+  },
+  "flat-vector-science": {
+    "name": "Flat-Vector Science",
+    "runtime": "flat-vector-science/runtime.js",
+    "css": "flat-vector-science/fonts.css",
+    "fonts": [
+      "400 28px \"Nunito\"",
+      "700 28px \"Nunito\"",
+      "900 56px \"Nunito\"",
+      "900 76px \"Nunito\"",
+      "600 28px \"Fredoka\""
+    ]
+  },
+  "editorial-essay-collage": {
+    "name": "Editorial Essay Collage",
+    "runtime": "editorial-essay-collage/runtime.js",
+    "css": "editorial-essay-collage/fonts.css",
+    "fonts": [
+      "400 54px \"Anton\"",
+      "400 80px \"Anton\"",
+      "700 28px \"Oswald\"",
+      "400 28px \"Libre Baskerville\"",
+      "700 32px \"Libre Baskerville\"",
+      "italic 400 28px \"Libre Baskerville\""
+    ]
+  },
+  "claymation-set": {
+    "name": "Claymation Set",
+    "runtime": "claymation-set/runtime.js",
+    "css": "claymation-set/fonts.css",
+    "fonts": [
+      "700 28px \"Fredoka\"",
+      "700 54px \"Fredoka\"",
+      "700 76px \"Fredoka\""
+    ]
+  },
+  "neon-sign-at-night": {
+    "name": "Neon Sign at Night",
+    "runtime": "neon-sign-at-night/runtime.js",
+    "css": "neon-sign-at-night/fonts.css",
+    "fonts": [
+      "400 28px \"Poiret One\"",
+      "400 64px \"Poiret One\"",
+      "400 54px \"Gloria Hallelujah\""
+    ]
+  },
+  "chalkboard-lesson": {
+    "name": "Chalkboard Lesson",
+    "runtime": "chalkboard-lesson/runtime.js",
+    "css": "chalkboard-lesson/fonts.css",
+    "fonts": [
+      "700 54px \"Kalam\"",
+      "700 76px \"Kalam\"",
+      "400 28px \"Patrick Hand\"",
+      "400 20px \"Kalam\""
+    ]
+  },
+  "memphis-group": {
+    "name": "Memphis Group",
+    "runtime": "memphis-group/runtime.js",
+    "css": "memphis-group/fonts.css",
+    "fonts": [
+      "700 28px \"Fredoka\"",
+      "700 34px \"Fredoka\"",
+      "400 54px \"Rubik Mono One\"",
+      "400 72px \"Rubik Mono One\""
+    ]
+  },
+  "bauhaus-poster": {
+    "name": "Bauhaus Poster",
+    "runtime": "bauhaus-poster/runtime.js",
+    "css": "bauhaus-poster/fonts.css",
+    "fonts": [
+      "700 28px \"Space Grotesk\"",
+      "700 36px \"Space Grotesk\"",
+      "700 88px \"Space Grotesk\"",
+      "800 64px \"Syne\""
+    ]
+  },
+  "vintage-newsprint": {
+    "name": "Vintage Newsprint",
+    "runtime": "vintage-newsprint/runtime.js",
+    "css": "vintage-newsprint/fonts.css",
+    "fonts": [
+      "400 78px \"UnifrakturMaguntia\"",
+      "700 64px \"Oswald\"",
+      "700 108px \"Oswald\"",
+      "700 34px \"Oswald\"",
+      "400 10.4px \"Libre Baskerville\"",
+      "700 10.4px \"Libre Baskerville\"",
+      "italic 400 32px \"Playfair Display\""
+    ]
+  }
+}

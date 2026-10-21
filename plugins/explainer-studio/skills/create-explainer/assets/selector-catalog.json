@@ -1,0 +1,133 @@
+{
+  "title": "Choose how your story looks.",
+  "description": "Compare the same Smart Queue moment in eighteen visual styles. Small previews loop silently; open a narrated preview to watch it large with sound.",
+  "sampleLabel": "8.3 seconds \u00b7 English \u00b7 30 fps",
+  "styles": [
+    {
+      "id": "tech-glow",
+      "name": "Tech Glow",
+      "description": "Luminous diagrams, flowing connections and bold typography. A focused, technical look for systems and digital products.",
+      "poster": "previews/tech-glow/poster.png",
+      "video": "previews/tech-glow/preview.mp4"
+    },
+    {
+      "id": "isometric-pastel",
+      "name": "Isometric Pastel",
+      "description": "Soft dimensional spaces, miniature people and a camera that follows the journey. A tangible look for places and processes.",
+      "poster": "previews/isometric-pastel/poster.png",
+      "video": "previews/isometric-pastel/preview.mp4"
+    },
+    {
+      "id": "cut-paper-diorama",
+      "name": "Cut-Paper Diorama",
+      "description": "Layered cardstock, textured cut lettering and tactile paper motion. A warm, handcrafted look for human journeys and step-by-step stories.",
+      "poster": "previews/cut-paper-diorama/poster.png",
+      "video": "previews/cut-paper-diorama/preview.mp4"
+    },
+    {
+      "id": "voxel-diorama",
+      "name": "Voxel Diorama",
+      "description": "A miniature world built from cubes, with dimensional shadows, falling blocks and pixel lettering. A playful, tangible look for journeys and systems.",
+      "poster": "previews/voxel-diorama/poster.png",
+      "video": "previews/voxel-diorama/preview.mp4"
+    },
+    {
+      "id": "punk-zine-collage",
+      "name": "Punk Zine Collage",
+      "description": "Torn photocopies, ransom-note letters and fluorescent pink ink, with eight-fps stop motion. A raw editorial look for bold, energetic stories.",
+      "poster": "previews/punk-zine-collage/poster.png",
+      "video": "previews/punk-zine-collage/preview.mp4"
+    },
+    {
+      "id": "glassmorphism-ui",
+      "name": "Glassmorphism UI",
+      "description": "Live backdrop blur, frosted panels and vivid drifting color. A polished interface look for digital services and connected journeys.",
+      "poster": "previews/glassmorphism-ui/poster.png",
+      "video": "previews/glassmorphism-ui/preview.mp4"
+    },
+    {
+      "id": "tarot-card",
+      "name": "Tarot Card",
+      "description": "Aged illustrated cards, gold foil and velvet, with a journey revealed through card deals and flips. An ornate, symbolic look for stories and step-by-step explanations.",
+      "poster": "previews/tarot-card/poster.png",
+      "video": "previews/tarot-card/preview.mp4"
+    },
+    {
+      "id": "gouache-travel-poster",
+      "name": "Gouache Travel Poster",
+      "description": "Matte painted shapes, dry-brush edges and warm mid-century colors, with bold poster lettering. A tactile, welcoming look for places and journeys.",
+      "poster": "previews/gouache-travel-poster/poster.png",
+      "video": "previews/gouache-travel-poster/preview.mp4"
+    },
+    {
+      "id": "isotype-pictograms",
+      "name": "ISOTYPE Pictograms",
+      "description": "Flat pictograms, ruled chart sheets and muted lithographic inks, with stepped stamp motion. A clear visual language for quantities, comparisons and process diagrams.",
+      "poster": "previews/isotype-pictograms/poster.png",
+      "video": "previews/isotype-pictograms/preview.mp4"
+    },
+    {
+      "id": "soft-3d-clay",
+      "name": "Soft 3D Clay",
+      "description": "Puffy pastel objects, rounded extrusions and soft contact shadows, with springy squash-and-stretch. A friendly dimensional look for services, products and journeys.",
+      "poster": "previews/soft-3d-clay/poster.png",
+      "video": "previews/soft-3d-clay/preview.mp4"
+    },
+    {
+      "id": "flat-vector-science",
+      "name": "Flat-Vector Science",
+      "description": "Deep violet space, chunky gradient shapes and crescent shadows, with dotted arrows and smooth camera pullbacks. A lively look for ideas, systems and connected journeys.",
+      "poster": "previews/flat-vector-science/poster.png",
+      "video": "previews/flat-vector-science/preview.mp4"
+    },
+    {
+      "id": "editorial-essay-collage",
+      "name": "Editorial Essay Collage",
+      "description": "Torn halftone prints, warm paper and condensed headlines, with masking tape, yellow highlights and red marker notes. A thoughtful editorial look for stories, evidence and processes.",
+      "poster": "previews/editorial-essay-collage/poster.png",
+      "video": "previews/editorial-essay-collage/preview.mp4"
+    },
+    {
+      "id": "claymation-set",
+      "name": "Claymation Set",
+      "description": "Hand-molded plasticine, visible thumbprints and waxy clay lettering on a sculpted teal-and-terracotta set. Stepped stop motion gives everyday journeys a tactile, handmade character.",
+      "poster": "previews/claymation-set/poster.png",
+      "video": "previews/claymation-set/preview.mp4"
+    },
+    {
+      "id": "neon-sign-at-night",
+      "name": "Neon Sign at Night",
+      "description": "Hand-bent glass tubes on rain-darkened brick, with hot cores, vivid halos and shimmering pavement reflections. Signs buzz on as the camera travels along the wall.",
+      "poster": "previews/neon-sign-at-night/poster.png",
+      "video": "previews/neon-sign-at-night/preview.mp4"
+    },
+    {
+      "id": "chalkboard-lesson",
+      "name": "Chalkboard Lesson",
+      "description": "Dusty chalk diagrams and handwritten labels on green slate, with eraser traces, coloured emphasis and a worn oak tray. A chalk stick draws the lesson as the camera follows the board.",
+      "poster": "previews/chalkboard-lesson/poster.png",
+      "video": "previews/chalkboard-lesson/preview.mp4"
+    },
+    {
+      "id": "memphis-group",
+      "name": "Memphis Group",
+      "description": "Clashing pastel grounds, bold outlines and hard shadows, with terrazzo chips, squiggles and chunky speech bubbles. Springy cutouts and striped polka-dot wipes turn each step into a playful graphic scene.",
+      "poster": "previews/memphis-group/poster.png",
+      "video": "previews/memphis-group/preview.mp4"
+    },
+    {
+      "id": "bauhaus-poster",
+      "name": "Bauhaus Poster",
+      "description": "Primary-colour geometry and heavy geometric lettering on aged cream paper. Separate ink plates, imperfect registration and fold marks give a ruled, continuously tracked journey the character of a printed exhibition poster.",
+      "poster": "previews/bauhaus-poster/poster.png",
+      "video": "previews/bauhaus-poster/preview.mp4"
+    },
+    {
+      "id": "vintage-newsprint",
+      "name": "Vintage Newsprint",
+      "description": "A yellowed newspaper with a blackletter masthead, condensed headlines and coarse halftone illustrations. Uneven ink, reverse show-through, ruled diagrams and red pencil marks give the journey a printed broadsheet character.",
+      "poster": "previews/vintage-newsprint/poster.png",
+      "video": "previews/vintage-newsprint/preview.mp4"
+    }
+  ]
+}

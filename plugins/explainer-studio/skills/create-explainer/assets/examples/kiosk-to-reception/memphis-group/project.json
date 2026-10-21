@@ -1,0 +1,212 @@
+{
+  "title": "Smart Queue \u00b7 Kiosk to reception",
+  "style": "memphis-group",
+  "duration": 8.3,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "scene": "scene.js",
+  "audio": "voice.wav",
+  "logo": "logo.svg",
+  "beats": [
+    {
+      "id": "arrive",
+      "start": 0,
+      "end": 2.125,
+      "frame": 1.9,
+      "narration": "The patient arrives at the kiosk and takes a reception ticket.",
+      "text": [
+        "Smart Queue",
+        "KIOSK TO",
+        "RECEPTION",
+        "Kiosk"
+      ],
+      "transition": "A tilted speech bubble and springy patient cutout introduce the patterned kiosk scene.",
+      "sounds": "Rubbery pop and gentle boing",
+      "events": {
+        "kiosk": 1.085,
+        "hook": 0,
+        "patient": 0.15
+      }
+    },
+    {
+      "id": "ticket",
+      "start": 2.125,
+      "end": 4.525,
+      "frame": 4.2,
+      "narration": "[Continuation of the first sentence.]",
+      "text": [
+        "KIOSK TO",
+        "RECEPTION",
+        "Kiosk",
+        "Reception ticket",
+        "G-001"
+      ],
+      "transition": "Continuous: the kiosk prints a ticket, then its matching sticker pops beside the patient.",
+      "sounds": "Ticket click and sticker pop",
+      "events": {
+        "ticket": 2.125
+      }
+    },
+    {
+      "id": "called",
+      "start": 4.525,
+      "end": 8.3,
+      "frame": 7.9,
+      "narration": "When the ticket number is called, the patient goes to reception.",
+      "text": [
+        "Now calling",
+        "G-001",
+        "GO TO",
+        "RECEPTION",
+        "Reception"
+      ],
+      "transition": "The called number gains a spinning starburst. A striped polka-dot band wipes to reception, where the matching number and patient carry the story forward.",
+      "sounds": "Synth call chime, fluttering zip, desk pop and arrow boing",
+      "events": {
+        "call": 4.525,
+        "reception": 5.725,
+        "wipe": 5.345,
+        "travel": 5.905
+      }
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "type": "word",
+      "start": 0.065,
+      "end": 0.145
+    },
+    {
+      "text": "patient",
+      "type": "word",
+      "start": 0.225,
+      "end": 0.545
+    },
+    {
+      "text": "arrives",
+      "type": "word",
+      "start": 0.665,
+      "end": 0.945
+    },
+    {
+      "text": "at",
+      "type": "word",
+      "start": 0.985,
+      "end": 1.025
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 1.105,
+      "end": 1.185
+    },
+    {
+      "text": "kiosk",
+      "type": "word",
+      "start": 1.265,
+      "end": 1.745
+    },
+    {
+      "text": "and",
+      "type": "word",
+      "start": 1.825,
+      "end": 1.985
+    },
+    {
+      "text": "takes",
+      "type": "word",
+      "start": 2.105,
+      "end": 2.225
+    },
+    {
+      "text": "a",
+      "type": "word",
+      "start": 2.252,
+      "end": 2.278
+    },
+    {
+      "text": "reception",
+      "type": "word",
+      "start": 2.305,
+      "end": 2.785
+    },
+    {
+      "text": "ticket.",
+      "type": "word",
+      "start": 2.865,
+      "end": 3.585
+    },
+    {
+      "text": "When",
+      "type": "word",
+      "start": 3.665,
+      "end": 3.745
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 3.825,
+      "end": 3.905
+    },
+    {
+      "text": "ticket",
+      "type": "word",
+      "start": 4.025,
+      "end": 4.145
+    },
+    {
+      "text": "number",
+      "type": "word",
+      "start": 4.225,
+      "end": 4.465
+    },
+    {
+      "text": "is",
+      "type": "word",
+      "start": 4.545,
+      "end": 4.625
+    },
+    {
+      "text": "called,",
+      "type": "word",
+      "start": 4.705,
+      "end": 5.265
+    },
+    {
+      "text": "the",
+      "type": "word",
+      "start": 5.345,
+      "end": 5.425
+    },
+    {
+      "text": "patient",
+      "type": "word",
+      "start": 5.625,
+      "end": 5.825
+    },
+    {
+      "text": "goes",
+      "type": "word",
+      "start": 5.905,
+      "end": 6.065
+    },
+    {
+      "text": "to",
+      "type": "word",
+      "start": 6.145,
+      "end": 6.225
+    },
+    {
+      "text": "reception.",
+      "type": "word",
+      "start": 6.305,
+      "end": 7.265
+    }
+  ],
+  "assumptions": [
+    "G-001 is an illustrative ticket number."
+  ],
+  "timingSource": "Existing approved ElevenLabs narration, source interval 15.700\u201323.000 seconds; provider word timings rebased; 1 second closing hold."
+}

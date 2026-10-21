@@ -1,0 +1,17 @@
+{
+  "name": "explainer-studio",
+  "version": "0.22.2",
+  "private": true,
+  "description": "Local explainer video workflow and style selector for Codex",
+  "scripts": {
+    "selector": "python plugins/explainer-studio/skills/create-explainer/scripts/launch_selector.py",
+    "check": "python tests/smoke.py",
+    "screenshots": "node docs/capture_screenshots.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}

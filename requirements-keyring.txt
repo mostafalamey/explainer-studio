@@ -1,0 +1,2 @@
+# Optional on macOS/Linux for local credential storage.
+keyring>=25,<27

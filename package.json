@@ -5,7 +5,7 @@
   "description": "Local explainer video workflow and style selector for Codex",
   "scripts": {
     "selector": "python plugins/explainer-studio/skills/create-explainer/scripts/launch_selector.py",
-    "check": "python tests/smoke.py",
+    "check": "python tests/selector-launcher.py && python tests/smoke.py",
     "screenshots": "node docs/capture_screenshots.cjs"
   },
   "engines": {
